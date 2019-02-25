@@ -15,12 +15,6 @@ var Author = require('./models/author')
 var Genre = require('./models/genre')
 var BookInstance = require('./models/bookinstance')
 
-/*
-var mongoose = require("mongodb").MongoClient;
-mongoose.connect("mongodb://locallibrarydb:Oe8NX0pCW0br0BYfarkn2FMkuNmS5KupoIXBtT00puahuAe1GOcWf6OcguXBrWrCwPXMjiITzKMDZ8fVg3JaPQ%3D%3D@locallibrarydb.documents.azure.com:10255/?ssl=true", function (err, client) {
-  client.close();
-});
-*/
 
 var mongoose = require('mongoose');
 var mongoDB = userArgs[0]; //encodeURIComponent(userArgs); 
