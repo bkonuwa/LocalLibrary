@@ -2,7 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb+srv://libraryuser:bookw0rm@cluster0-s1mo8.azure.mongodb.net/local_library?retryWrites=true';
+var mongoDB = '';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
