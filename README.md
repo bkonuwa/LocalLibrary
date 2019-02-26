@@ -1,5 +1,5 @@
 # LocalLibrary
-A Express (Node) web app built by following a tutorial on MDN (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website). A website to manage the catalog for a (imaginary) local library. 
+A Express (Node) web app built by following a tutorial on MDN (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website).
 
 In this tutorial, the follow concepts were learned:
  - Use the Express Application Generator tool to create a skeleton website and application.
