@@ -1,8 +1,11 @@
 var createError = require('http-errors');
 var express = require('express');
 
+var localConfig = require('./config.json');
+
 var mongoose = require('mongoose');
-var mongoDB = '';
+var mongoDB = localConfig.dev.connectionString;
+
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
