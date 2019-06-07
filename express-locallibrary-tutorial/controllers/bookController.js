@@ -3,6 +3,9 @@ var Author = require('../models/author');
 var Genre = require('../models/genre');
 var BooKInstance = require('../models/bookinstance');
 
+const { body, validationResult } = require('express-validator/check');
+const { santizeBody } = require('express-validator/filter');
+
 var async = require('async');
 
 exports.index = function(req, res) {
